@@ -46,8 +46,15 @@ h1, h2 {
 
 .intro p,
 .mission p,
+.services p,
+.pallet-program p,
 .contact p {
   margin-bottom: 16px;
+}
+
+.services ul {
+  margin-bottom: 8px;
+  line-height: 1.5;
 }
 
 .cta-button {
@@ -63,6 +70,11 @@ h1, h2 {
 
 .cta-button:hover {
   background-color: #3e2a15;
+}
+
+.pallet-program .cta-button {
+  margin-top: 16px;
+  display: inline-block;
 }
 
 footer {
